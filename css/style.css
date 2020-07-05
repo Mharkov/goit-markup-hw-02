@@ -32,7 +32,7 @@ body{
     letter-spacing: 0.02em;
     list-style-type: none;
     
-    color: #212121;
+    color: var(--primary-title-color);
     
 }
 
@@ -74,7 +74,7 @@ body{
 /* Logotip */
 .Logo-full{
 
-    font-family:Raleway, sans-serif;
+    font-family: 'Raleway', sans-serif;
     text-decoration: none;
     font-weight: 700;
     font-size: 26px;
@@ -110,11 +110,11 @@ body{
     letter-spacing: 0.06em;
     
 
-    background: #2196F3;
+    background: var(--accent-color);
     border-radius: 4px;
-    color:#FFFFFF ;
+    color:var(--primary-white-color);
 
-    
+    /* Наши преимущества */
 }
 .advantage-list-item-title{
  
@@ -143,6 +143,8 @@ body{
     text-align: center;
     
     color: var(--primary-title-color);
+
+    /* Чем мы занимаемся */
 }
 .works-list-item-text{
    
@@ -156,6 +158,8 @@ body{
     background: var(--primary-background-colorrgba);
 }
 
+
+/* Сотрудники */
 .team{
 
     background: var(--secondary-white-color);
@@ -164,7 +168,7 @@ body{
 
 .team-list{
     
-    background: #FFFFFF;
+    background: var(--primary-white-color);
     
 }
 .team-list-item-name{
@@ -188,6 +192,8 @@ body{
     
 }
 
+/* Клиенты */
+
 .clients-list a:hover,
 .clients-list a:focus{
 
@@ -200,6 +206,8 @@ body{
 
     background: #2F303A;
 }
+/* Footer Logo */
+
 .footer-logo{
 
     font-family: Raleway;
@@ -228,7 +236,6 @@ body{
 
 }
 
-
 .footer-address a:hover,
 .footer-address a:focus{
 
@@ -236,7 +243,6 @@ body{
 }
 .social-icons-title{
   
-
     font-weight: 700;
     font-size: 14px;
     line-height: 1.143;
@@ -245,6 +251,8 @@ body{
     color: var(--primary-white-color);
 
 }
+
+/* Footer кнопки */
 .mailing-list-btn{
     
     font-weight: 700;
@@ -253,8 +261,8 @@ body{
     font-family: inherit; 
     letter-spacing: 0.06em;
 
-    color:#FFFFFF;
-    background: #2196F3;
+    color:var(--primary-white-color);
+    background: var(--accent-color);
 }
 .mailing-list-input{
  
@@ -277,7 +285,6 @@ body{
 
     text-align: center;
 
-
     color: var(--primary-title-color);
     background: var(--secondary-white-color);
 }
@@ -293,7 +300,6 @@ body{
     font-weight: 700;
     font-size: 18px;
     line-height: 2.0;
-    
     letter-spacing: 0.06em;
 
     color: var(--primary-title-color);
@@ -303,12 +309,10 @@ body{
     font-size: 16px;
     line-height: 1.87;
     
-
     color: var(--primary-text-color);
 }
 .projects-works-text{
 
-    
     font-weight: normal;
     font-size: 18px;
     line-height: 1.56px;
